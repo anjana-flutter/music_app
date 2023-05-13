@@ -167,12 +167,12 @@ class _Home_pageState extends State<Home_page> {
                         width: 10,
                         height: 10,
                       ),
-                      Expanded(
-                        // height: 50,
+                      Container(
+                        height: 50,
                         child: ListView.builder(
                           itemBuilder: (context, index) {
                             return Padding(
-                                padding: EdgeInsets.all(15),
+                                padding: EdgeInsets.all(10),
                                 child: InkWell(
                                   child: Text(data[index]['data']),
                                   onTap: () {},
@@ -186,7 +186,7 @@ class _Home_pageState extends State<Home_page> {
                         height: 30,
                       ),
                       Container(
-                        height: 200,
+                        height: MediaQuery.of(context).size.width,
                         child: ListView.builder(
                             itemBuilder: (context, index) {
                               return Padding(
@@ -197,7 +197,7 @@ class _Home_pageState extends State<Home_page> {
                                         width: 100,
                                         height: 100,
                                         child: ClipRRect(
-                                          borderRadius: BorderRadius.circular(15),
+                                          borderRadius: BorderRadius.circular(20),
                                           child: Image(
                                               image: AssetImage(
                                                   'assets/images (4).jpeg')),
