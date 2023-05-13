@@ -167,8 +167,8 @@ class _Home_pageState extends State<Home_page> {
                         width: 10,
                         height: 10,
                       ),
-                      Container(
-                        height: 50,
+                      Expanded(
+                        // height: 50,
                         child: ListView.builder(
                           itemBuilder: (context, index) {
                             return Padding(
