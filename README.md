@@ -1,6 +1,6 @@
 # music_app
 
-A new Flutter project.
+A new MUSIC APPLICATION.
 
 ## Getting Started
 
